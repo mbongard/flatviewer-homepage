@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flatviewer</title>
+    <style>
+        @font-face {
+            font-family: 'Anonymous Pro';
+            src: url('fonts/anonymous_pro/AnonymousPro-Regular.woff2') format('woff2'),
+                url('fonts/anonymous_pro/AnonymousPro-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Anonymous Pro';
+            src: url('fonts/anonymous_pro/AnonymousPro-BoldItalic.woff2') format('woff2'),
+                url('fonts/anonymous_pro/AnonymousPro-BoldItalic.woff') format('woff');
+            font-weight: bold;
+            font-style: italic;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Anonymous Pro';
+            src: url('fonts/anonymous_pro/AnonymousPro-Bold.woff2') format('woff2'),
+                url('fonts/anonymous_pro/AnonymousPro-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Anonymous Pro';
+            src: url('fonts/anonymous_pro/AnonymousPro-Italic.woff2') format('woff2'),
+                url('fonts/anonymous_pro/AnonymousPro-Italic.woff') format('woff');
+            font-weight: normal;
+            font-style: italic;
+            font-display: swap;
+        }
+
+        body {
+            position: relative;
+            font-family: 'Anonymous Pro';
+            width: 100vw;
+            height: 100vh;
+            height: 100dvh;
+            margin: 0;
+            background-color: #e2f5f6;
+            color: #1f5356;
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 3rem;
+            width: 50rem;
+            max-width: 80vw;
+            height: 100%;
+            margin: auto;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            margin-top: 30vh;
+        }
+
+        .contact {
+            display: flex;
+            gap: 0.5rem;
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+        }
+
+        img {
+            width: 100%;
+            max-width: 40rem;
+            object-fit: contain;
+        }
+
+        .slogan {
+            max-width: 50rem;
+            text-align: center;
+        }
+
+        a {
+            margin-bottom: 5rem;
+            color: #1f5356;    
+        }
+
+        @media screen and (max-width: 500px) {
+            body {
+                font-size: 1rem;
+                line-height: 1.6rem;
+            }
+            
+            .header {
+                margin-top: 15vh;
+            }
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="content">
+        <div class="header">
+            <img src="flatviewer-logo-full.png" alt="Flatviewer Logo" />
+            <div class="slogan">Das interaktive Immobilien-Tool für den ultimativen Verkaufserfolg.</div>
+        </div>
+        <a href="mailto:info@flatviewer.ch">info@flatviewer.ch</a>
+    </div>
+  </body>
+</html>
